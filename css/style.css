@@ -480,6 +480,7 @@ button {
         align-items: center;
         opacity: 0;
         transition: transform 0.5s ease, opacity 0.5s ease;
+        z-index: 100;
     }
 
     .menu-toggle:checked ~ .nav-links {
@@ -496,12 +497,34 @@ button {
         display: flex;
     }
 
+    .left-heading .rectangular {
+        margin: 1.5rem auto;
+    }
+
     .logo-link {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .footer {
         max-width: 100%;
+    }
+
+    .heading-banner .right-heading {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box-1 {
+        position: relative;
+        /* top: -20px; */
+        /* right: -70px;  */
+    }
+    
+    .box-2 {
+        position: relative;
+        top: -150px;
+        /* left: -70px;  */
     }
 
     .header, 
@@ -510,13 +533,17 @@ button {
     .section-3,
     .section-4, 
     .section-5 {
-        position: relative;
+        /* position: relative; */
         max-width: 100%;
         margin: 20px auto;
         padding: 0 15px;
     }
 
-    .part-1, .part-2  {
+    .section-2 img {
+        width: 100%;
+    }
+
+    .part-1, .part-2, .text-part {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -544,10 +571,6 @@ button {
     .header .header-section {
         align-items: center;
         justify-content: space-around;
-    }
-
-    .logo-link {
-        font-size: 1.8rem;
     }
 
     .hamburger-menu {
@@ -608,10 +631,11 @@ button {
     }
 
     h1, h2 {
+        margin: 20px 0;
         font-size: 1.8rem;
     }
 
-    .paragraph, label, .btn, .logo-link {
+    .paragraph, label, .btn {
         font-size: 0.9rem;
     }
 
