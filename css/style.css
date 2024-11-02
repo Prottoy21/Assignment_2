@@ -233,8 +233,7 @@ h2 {
 }
 
 .btn {
-    width: 120px;
-    height: 2rem;
+    width: 150px;
     border-radius: 2rem;
     background-color: var(--btn-primary);
 }
@@ -459,13 +458,15 @@ button {
 
 
 
-
+.hide {
+    display: none;
+}
 
 
 
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .nav-links {
         position: fixed;
         top: 0;
@@ -498,4 +499,120 @@ button {
     .logo-link {
         font-size: 1.5rem;
     }
+
+    .footer {
+        max-width: 100%;
+    }
+
+    .header, 
+    .section-1, 
+    .section-2, 
+    .section-3,
+    .section-4, 
+    .section-5 {
+        position: relative;
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    .part-1, .part-2  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .part-2 {
+        gap: 20px;
+    }
+
+    .inline-group {
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .section-4 .part-2 .bmi-form, .bmi-chart {
+        margin: 5px auto;
+        width: 95%;
+    }
+
+    .header .header-section {
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo-link {
+        font-size: 1.8rem;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .menu-toggle:checked + .hamburger-menu + .nav-links {
+        display: flex;
+        padding: 10px 0;
+    }
+
+    .heading-banner {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .left-heading, .right-heading {
+        width: 100%;
+    }
+
+    .left-heading h1 {
+        font-size: 2.5rem;
+    } 
+
+    .box-1, .box-2 {
+        margin: 20px auto;
+    }
+
+    .section-1 .card-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-2 .left, .section-2 .right {
+        width: 100%;
+    }
+
+    .grid-container-1, .grid-container-2, .grid-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .useful-links h3 {
+        font-size: 1.2rem;
+    }
+
+    h1, h2 {
+        font-size: 1.8rem;
+    }
+
+    .paragraph, label, .btn, .logo-link {
+        font-size: 0.9rem;
+    }
+
 }
