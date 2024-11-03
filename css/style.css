@@ -288,7 +288,7 @@ h2 {
 }
 
 .img-1::before {
-    content: ""; /* Creates the overlay */
+    content: "Leg Press: Works the quadriceps and glutes"; /* Creates the overlay */
     position: absolute;
     top: 0;
     left: 0;
@@ -296,10 +296,14 @@ h2 {
     height: 100%;
     background-color: rgba(6, 255, 210, 0.5); 
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .img-2::before {
-    content: ""; /* Creates the overlay */
+    content: "Leg Press: Works the quadriceps and glutes"; /* Creates the overlay */
     position: absolute;
     top: 0;
     left: 0;
@@ -307,10 +311,14 @@ h2 {
     height: 100%;
     background: rgba(255, 0, 0, 0.3);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .img-3::before {
-    content: ""; /* Creates the overlay */
+    content: "Leg Press: Works the quadriceps and glutes"; /* Creates the overlay */
     position: absolute;
     top: 0;
     left: 0;
@@ -318,10 +326,14 @@ h2 {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .img-4::before {
-    content: ""; /* Creates the overlay */
+    content: "Leg Press: Works the quadriceps and glutes"; /* Creates the overlay */
     position: absolute;
     top: 0;
     left: 0;
@@ -329,10 +341,14 @@ h2 {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .img-5::before {
-    content: ""; /* Creates the overlay */
+    content: "Leg Press: Works the quadriceps and glutes"; /* Creates the overlay */
     position: absolute;
     top: 0;
     left: 0;
@@ -340,10 +356,14 @@ h2 {
     height: 100%;
     background: rgba(66, 255, 0, 0.3);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .img-6::before {
-    content: ""; 
+    content: "Leg Press: Works the quadriceps and glutes"; 
     position: absolute;
     top: 0;
     left: 0;
@@ -351,6 +371,10 @@ h2 {
     height: 100%;
     background: rgba(0, 71, 255, 0.3);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 table {
